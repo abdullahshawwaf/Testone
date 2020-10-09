@@ -8,7 +8,7 @@ int main( void )
 {
     unsigned int x; // variable to hold user input
 
-    printf( "%s", "Enter a nonnegative int: " );
+    printf( "%s", "Enter  non negative int: " );
     scanf( "%u", &x );
 
     displayBits( x );
